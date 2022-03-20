@@ -1,6 +1,6 @@
 {
   "name": "nodesetup",
-  "version": "1",
+  "version": "1.0.0",
   "description": "setup for node js projects",
   "main": "src/index.js",
   "author": "Lutero Elavoco",
@@ -10,10 +10,6 @@
     "start": "node dist/server.js",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_nodules --no-notify src/server.ts",
     "test": "jest"
-  },
-  "engines": {
-    "node": "12.16.1",
-    "npm": "6.14.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.16",
