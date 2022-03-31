@@ -4,5 +4,6 @@ export enum navigatorsType{
     globo = 'globo',
     bbb = 'bbb',
     cnn = 'cnn',
-    jornaldeangola = 'jornaldeangola'
+    jornaldeangola = 'jornaldeangola',
+    valor = 'valor'
 }

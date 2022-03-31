@@ -6,6 +6,7 @@ import { PovoNavigator } from "./povoNavigator";
 import { GShowGloboNavigator } from "./bbbNavigator";
 import { CNNNavigator } from "./cnnNavigator";
 import { AngolaNavigator } from "./angolaNavigator";
+import { ValorNavigator } from "./valorNavigator";
 
 
 export class NewsNavigator {
@@ -18,6 +19,7 @@ export class NewsNavigator {
     const gShowGloboNavigator = new GShowGloboNavigator();
     const cNNNavigator = new CNNNavigator()
     const angolaNavigator = new AngolaNavigator()
+    const valorNavigator = new ValorNavigator()
     const navigators = {
       folha: {
         url: "https://www1.folha.uol.com.br/",
@@ -42,6 +44,10 @@ export class NewsNavigator {
       jornaldeangola: {
         url: "https://www.jornaldeangola.ao/ao/",
         navigator: angolaNavigator.navigator,
+      },
+      valor: {
+        url: "https://valor.globo.com/",
+        navigator: valorNavigator.navigator,
       },
     };
 
