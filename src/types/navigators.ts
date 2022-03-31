@@ -2,5 +2,7 @@ export enum navigatorsType{
     folha = 'folha',
     povo = 'povo',
     globo = 'globo',
-    bbb = 'bbb'
+    bbb = 'bbb',
+    cnn = 'cnn',
+    jornaldeangola = 'jornaldeangola'
 }
